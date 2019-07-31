@@ -45,7 +45,7 @@ export const facebookLogin = () => {
   return async dispatch => {
     try {
       const { type, token } = await Expo.Facebook.logInWithReadPermissionsAsync(
-        "2145012158931147"
+        "abcdefghilmnop"
       );
       if (type === "success") {
         // Build Firebase credential with the Facebook access token.
